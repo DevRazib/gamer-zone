@@ -53,6 +53,9 @@
   padding:20px 30px;
   border:none;
 }
+.list-item .fab{
+  margin: 0px 10px;
+}
 /* banner css start */
 .banner-area{
   display: flex;
