@@ -111,6 +111,7 @@ background-clip: text;
   font-size: 18px;
   margin: 15px;
   font-weight: 400;
+  text-align: left;
 }
 .banner-area i{
   margin-right: 10px;
@@ -280,6 +281,7 @@ line-height: 30px;
   font-weight: 400;
   line-height: 30px;
   margin: 20px 0;
+  text-align: left;
 }
 .career-area .primary-btn{
   background:#ffffff;
@@ -341,5 +343,65 @@ line-height: 30px;
 }
 /* button group css end */
 /* footer css start  */
+.footer{
+  background: #0B0223;
+  padding: 100px;
+}
 
+.footer .logo{
+  text-align: center;
+  max-width: 200px;
+  margin: 0 auto;
+}
+.footer .logo h3{
+  color:#ffffff;
+}
+.footer li{
+  color:#ffffff;
+  list-style: none;
+}
+.footer-list-item{
+  margin: 20px 0px;
+}
+.footer .footer-list-item, .footer-social-icon, .footer-setting, .gray{
+  display: flex;
+  gap:20px;
+  align-items: center;
+  justify-content: center;
+}
+.footer .footer-list-item li, .fab,p {
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+.footer .fab{
+  font-size: 35px;
+}
+.footer .footer-list-item .gray{
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer-copyright{
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer-setting{
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 20px 0px;
+}
 /* footer css end */
+
+
+/* responsive css styles  */
+
+
