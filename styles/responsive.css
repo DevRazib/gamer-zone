@@ -1,10 +1,9 @@
 @media only screen and (max-width:430px) {
-  .nav-bar,.list-item,.banner-area,.we-are-gamer,.career-full-area{
+  .nav-bar,.list-item,.banner-area,.we-are-gamer,.career-full-area,.play-instantly-part{
    flex-direction: column;
    text-align: center;
   }
-  .logo{
-    font-size: 25px;
+  .header .logo{
     margin-top: 20px;
   }
   .list-item a,button{
@@ -33,7 +32,7 @@
   .we-are-gamer img, .we-are-gamer-content,.career-content,.career-img,.career-area img{
     width: 100%;
   }
-  .funny-video .section-title h3{
+  .funny-video .section-title h3,.play-instantly h3{
     font-size: 30px;
   }
   .funny-video-img,.career-full-area{
@@ -42,11 +41,22 @@
   .funny-video-para{
     font-size: 10px;
   }
+  .career-area{
+    display: none;
+  }
   .footer .footer-list-item, .footer-social-icon, .footer-setting, .gray{
     gap:10px;
   }
   .footer .footer-list-item li, .fab,p{
     font-size: 15px;
     line-height: 30px;
+  }
+  .absolute-img img{
+    width: 150px;
+  }
+  .play-instantly-area .absolute-img{
+    position: relative;
+    top: -150px;
+    left: -170px;
   }
 }
