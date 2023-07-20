@@ -185,7 +185,7 @@ font-weight: 700;
   display: flex;
   justify-content: space-evenly;
   gap: 30px;
-  margin: 40px 0px;
+  margin: 20px 0px;
   align-items: center;
 }
 .funny-video-img img{
@@ -248,6 +248,38 @@ line-height: 30px;
   margin: 10px 0;
 }
 /* funny videos css end */
+/* play instant css start */
+.play-instantly-area img{
+  width: 100%;
+}
+.play-instantly-part{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+}
+.play-instantly-part h3{
+  color: #0B0223;
+  font-size: 48px;
+  font-weight: 700;
+
+}
+.play-instantly-part p{
+  color: #534C64;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+.absolute-img img{
+  width: 300px;
+}
+.play-instantly-area .absolute-img{
+  position: relative;
+  top: -250px;
+  left: -170px;
+ 
+}
+/* play instant css end */
 
 /* career area css start */
 .career-area{
@@ -315,8 +347,8 @@ line-height: 30px;
 .btn-group{
   margin: 10px 0;
   display: flex;
-  gap:10px;
   justify-content: center;
+  align-items: center;
   padding: 10px;
   border-radius: 50px;
   background: #FFF;
